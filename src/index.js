@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import App from './views/app'
+import AppSkyAlert from './views/app-sky-alert'
 import SuitedeSoluciones from './views/suitede-soluciones'
 import REDSkyAlert from './views/r-e-d-sky-alert'
 import Home from './views/home'
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route exact component={App} path="/app" />
+        <Route exact component={AppSkyAlert} path="/app" />
         <Route
           exact
           component={SuitedeSoluciones}

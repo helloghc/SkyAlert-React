@@ -1,0 +1,65 @@
+.app-sky-alert-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.app-sky-alert-main {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.app-sky-alert-image {
+  width: 70%;
+  object-fit: cover;
+}
+.app-sky-alert-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.app-sky-alert-image1 {
+  width: 100%;
+  object-fit: cover;
+}
+.app-sky-alert-text {
+  display: none;
+}
+.app-sky-alert-text1 {
+  text-align: center;
+}
+@media(max-width: 767px) {
+  .app-sky-alert-image {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .app-sky-alert-image {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .app-sky-alert-text {
+    display: inline;
+    padding: 0 30px;
+    font-size: 25px;
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app-sky-alert-text2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
