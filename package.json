@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.4.3",
+    "@craco/craco": "^6.4.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
@@ -11,7 +11,7 @@
     "prop-types": "15.7.2"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco start --legacy-peer-deps",
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
@@ -29,6 +29,6 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "^3.4.4"
+    "react-scripts": "^5.0.1"
   }
 }
