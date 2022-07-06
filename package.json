@@ -13,8 +13,8 @@
     "styled-components": "^5.3.5"
   },
   "scripts": {
-    "start": "yarn",
-    "build": "yarn build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
