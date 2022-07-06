@@ -14,7 +14,7 @@ import Footer from '../components/footer'
 import Copyright from '../components/copyright'
 import './app.css'
 
-const App = (props) => {
+const Appskyalert = (props) => {
   return (
     <div className="app-container">
       <Helmet>
@@ -141,4 +141,4 @@ const App = (props) => {
   )
 }
 
-export default App
+export default Appskyalert
