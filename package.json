@@ -13,7 +13,7 @@
     "styled-components": "^5.3.5"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "yarn && yarn build && npm start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
@@ -32,8 +32,5 @@
   },
   "peerDependencies": {
     "react-scripts": "^4.0.0"
-  },
-  "devDependencies": {
-    "react-scripts": "4.*"
   }
 }
