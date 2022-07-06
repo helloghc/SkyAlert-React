@@ -1,0 +1,128 @@
+.navbarblack-navbar-container {
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbarblack-image {
+  width: 106px;
+}
+.navbarblack-nav {
+  display: flex;
+}
+.navbarblack-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbarblack-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbarblack-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.navbarblack-image1 {
+  width: 106px;
+}
+.navbarblack-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarblack-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbarblack-primary-btn {
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.navbarblack-social-media {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbarblack-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.navbarblack-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.navbarblack-icon04 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbarblack-icon04:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.navbarblack-icon08 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbarblack-icon08:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.navbarblack-icon12 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbarblack-icon12:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.navbarblack-icon14 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+.navbarblack-icon14:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+.navbarblack-root-class-name {
+  background-color: #ffffff;
+}
+.navbarblack-root-class-name1 {
+  background-color: #ffffff;
+}
+.navbarblack-root-class-name2 {
+  background-color: #ffffff;
+}
+.navbarblack-root-class-name3 {
+  background-color: #ffffff;
+}
+.navbarblack-root-class-name4 {
+  background-color: #ffffff;
+}
+.navbarblack-root-class-name5 {
+  background-color: #ffffff;
+}
+.navbarblack-root-class-name6 {
+  background-color: #ffffff;
+}
+@media(max-width: 767px) {
+  .navbarblack-nav {
+    display: none;
+  }
+}

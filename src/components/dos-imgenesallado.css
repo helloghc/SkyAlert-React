@@ -1,0 +1,38 @@
+.dos\ imágenes\ al\ lado-container {
+  width: 331px;
+  height: 67px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.dos\ imágenes\ al\ lado-container1 {
+  width: 1121px;
+  height: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dos\ imágenes\ al\ lado-image {
+  width: 200px;
+  margin: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+.dos\ imágenes\ al\ lado-image1 {
+  width: 200px;
+  margin: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+.dos\ imágenes\ al\ lado-root-class-name {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media(max-width: 479px) {
+  .dos\ imágenes\ al\ lado-container {
+    height: 0px;
+  }
+  .dos\ imágenes\ al\ lado-container1 {
+    flex-direction: column;
+  }
+}

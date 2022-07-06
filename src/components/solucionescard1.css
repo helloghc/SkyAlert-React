@@ -1,0 +1,126 @@
+.solucionescard1-card {
+  flex: 0 0 auto;
+  width: 25%;
+  border: 2px solid transparent;
+  display: flex;
+  max-width: 285px;
+  background: linear-gradient(#fff 0 0) padding-box,      linear-gradient(to right, #fad126, #ff544f) border-box;;
+  max-height: 300px;
+  min-height: 300px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+.solucionescard1-image {
+  width: 100px;
+  object-fit: cover;
+}
+.solucionescard1-root-class-name {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name1 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name2 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name3 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name4 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name5 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name6 {
+  margin: var(--dl-space-space-unit);
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.solucionescard1-root-class-name8 {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name9 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name10 {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name11 {
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name12 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name13 {
+  width: 25%;
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name14 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+.solucionescard1-root-class-name16 {
+  margin: var(--dl-space-space-halfunit);
+  max-width: 150px;
+  align-self: center;
+  max-height: 150px;
+  min-height: 150px;
+}
+@media(max-width: 767px) {
+  .solucionescard1-card {
+    width: 50%;
+  }
+}
+@media(max-width: 479px) {
+  .solucionescard1-card {
+    width: 100%;
+  }
+  .solucionescard1-root-class-name8 {
+    margin-left: 10px;
+  }
+}

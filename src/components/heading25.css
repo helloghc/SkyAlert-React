@@ -1,0 +1,83 @@
+.heading\ 2\.5-container {
+  width: 100%;
+  height: 106px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.heading\ 2\.5-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.heading\ 2\.5-image {
+  width: 60px;
+  margin: 0 10px 0 0 ;
+  display: inline-block;
+  padding: 0;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+.heading\ 2\.5-container2 {
+  flex: 0 0 auto;
+  width: 942px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.heading\ 2\.5-text {
+  width: 916px;
+  font-size: 40px;
+  align-self: flex-start;
+  text-align: left;
+  line-height: 50px;
+}
+.heading\ 2\.5-text2 {
+  color: var(--dl-color-backgrounds-primary);
+}
+.heading\ 2\.5-text3 {
+  margin-top: 10px;
+}
+.heading\ 2\.5-root-class-name {
+  margin-top: 20px;
+}
+
+
+
+@media(max-width: 991px) {
+  .heading\ 2\.5-text {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .heading\ 2\.5-text {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .heading\ 2\.5-image {
+    margin-left: 3px;
+  }
+  .heading\ 2\.5-container2 {
+    width: 356px;
+  }
+  .heading\ 2\.5-root-class-name {
+    margin-top: 100px;
+    margin-bottom: 350px;
+  }
+  .heading\ 2\.5-root-class-name1 {
+    margin-bottom: 100px;
+  }
+  .heading\ 2\.5-root-class-name2 {
+    margin-top: 100px;
+  }
+  .heading\ 2\.5-root-class-name5 {
+    margin-top: 90px;
+  }
+}
