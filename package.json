@@ -11,8 +11,8 @@
     "prop-types": "15.7.2"
   },
   "scripts": {
-    "start": "yarn && yarn start",
-    "build": "npm start",
+    "start": "yarn && yarn add && yarn start",
+    "build": "craco build ",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
