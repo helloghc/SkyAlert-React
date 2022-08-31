@@ -30,12 +30,12 @@
 
 
 
-@media(max-width: 991px) {
+@media(max-width: 896px) {
   .copyright-max-width {
     flex-direction: column;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .copyright-root-class-name {
     margin-bottom: 50px;
   }

@@ -44,12 +44,3 @@
   align-self: flex-start;
   text-align: center;
 }
-.alianzas1-root-class-name {
-  align-self: center;
-  margin-top: 20px;
-}
-@media(max-width: 479px) {
-  .alianzas1-root-class-name {
-    margin-bottom: 150px;
-  }
-}

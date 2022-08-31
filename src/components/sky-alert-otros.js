@@ -6,22 +6,22 @@ import './sky-alert-otros.css'
 
 const SkyAlertOtros = (props) => {
   return (
-    <div className={`sky-alert otros-container ${props.rootClassName} `}>
-      <div className="sky-alert otros-container1">
+    <div className={`sky-alert-otros-container ${props.rootClassName} `}>
+      <div className="sky-alert-otros-container1">
         <img
           alt={props.image_alt}
           src={props.image_src}
-          className="sky-alert otros-image"
+          className="sky-alert-otros-image"
         />
-        <div className="sky-alert otros-container2">
-          <h3 className="sky-alert otros-text">{props.heading}</h3>
+        <div className="sky-alert-otros-container2">
+          <h3 className="sky-alert-otros-text">{props.heading}</h3>
         </div>
         <img
           alt={props.image_alt1}
           src={props.image_src1}
-          className="sky-alert otros-image1"
+          className="sky-alert-otros-image1"
         />
-        <span className="sky-alert otros-text1">{props.text}</span>
+        <span className="sky-alert-otros-text1">{props.text}</span>
       </div>
     </div>
   )

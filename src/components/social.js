@@ -8,33 +8,68 @@ const Social = (props) => {
   return (
     <div className={`social-container ${props.rootClassName} `}>
       <div className="social-container1">
-        <img
-          alt={props.image_alt3}
-          src={props.image_src3}
-          className="social-image"
-        />
-        <div className="social-container2">
+        <a
+          href="https://www.facebook.com/SkyAlertMx/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="social-link"
+        >
           <img
-            alt={props.image_alt21}
-            src={props.image_src21}
-            className="social-image1"
+            alt={props.image_alt3}
+            src={props.image_src3}
+            className="social-image"
           />
+        </a>
+        <div className="social-container2">
+          <a
+            href="https://twitter.com/skyalertmx"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="social-link1"
+          >
+            <img
+              alt={props.image_alt21}
+              src={props.image_src21}
+              className="social-image1"
+            />
+          </a>
         </div>
-        <img
-          alt={props.image_alt4}
-          src={props.image_src4}
-          className="social-image2"
-        />
-        <img
-          alt={props.image_alt2}
-          src={props.image_src2}
-          className="social-image3"
-        />
-        <img
-          alt={props.image_alt1}
-          src={props.image_src1}
-          className="social-image4"
-        />
+        <a
+          href="https://www.instagram.com/skyalertmx/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="social-link2"
+        >
+          <img
+            alt={props.image_alt4}
+            src={props.image_src4}
+            className="social-image2"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/skyalert-mx/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="social-link3"
+        >
+          <img
+            alt={props.image_alt2}
+            src={props.image_src2}
+            className="social-image3"
+          />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCJwJrlu4G7kmOKyoVXzUhbA"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="social-link4"
+        >
+          <img
+            alt={props.image_alt1}
+            src={props.image_src1}
+            className="social-image4"
+          />
+        </a>
       </div>
     </div>
   )

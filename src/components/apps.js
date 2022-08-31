@@ -30,7 +30,7 @@ const Apps = (props) => {
 
 Apps.defaultProps = {
   image_alt2: 'image',
-  image_src1: '/playground_assets/skyalert-%5B2%5D_40-1500w.jpg',
+  image_src1: '/playground_assets/skyalert-%5B2%5D_40-200h.jpg',
   image_alt21: 'image',
   image_src2: '/playground_assets/skyalert-%5B2%5D_42-200h.jpg',
   rootClassName: '',

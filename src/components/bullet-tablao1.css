@@ -49,3 +49,13 @@
   margin-right: var(--dl-space-space-fourunits);
 }
 
+@media(max-width: 763px) {
+  .bullet-tablao1-container {
+    display: none;
+  }
+}
+@media(max-width: 425px) {
+  .bullet-tablao1-container {
+    display: none;
+  }
+}

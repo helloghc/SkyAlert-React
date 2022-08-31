@@ -199,6 +199,33 @@
   text-align: left;
   line-height: 50px;
 }
+.img_shii {
+  width: 60px;
+  margin: 0 10px 0 0;
+  display: inline-block;
+  padding: 0;
+  max-width: 60px;
+  min-width: 60px;
+  margin-left: 100px;
+  margin-right: 20px;
+  vertical-align: initial;
+}
+
+.homeskyapp {
+  width: 1863px;
+  height: 1066px;
+  padding: 0px;
+  position: relative;
+  max-width: 100%;
+  min-width: 100%;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/playground_assets/skyalert-%5B2%5D_421-1900w.jpg");
+  background-repeat: no-repeat;
+}
 .content-Light {
   font-size: 16px;
   font-style: normal;
@@ -243,12 +270,12 @@
   text-transform: none;
   text-decoration: none;
 }
-@media(max-width: 991px) {
+@media(max-width: 896px) {
   .heading_b1 {
     padding: 0 20px;
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 763px) {
   .navbar-link {
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -271,7 +298,7 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .icon_b1 {
     width: 40px;
     margin-left: 0px;
@@ -280,5 +307,9 @@
     width: 394px;
     height: 106px;
     margin-bottom: 100px;
+  }
+  .img_shii {
+    width: 50px;
+    margin: 20px;
   }
 }

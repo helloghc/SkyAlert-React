@@ -84,40 +84,29 @@
   margin-top: 10px;
   border-color: var(--dl-color-backgrounds-primary);
 }
-
-
-
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .entrevistas-container {
+    width: 80%;
     margin: 90px 0;
     flex-direction: column;
   }
   .entrevistas-container1 {
-    width: 387px;
+    width: 100%;
     flex-direction: column;
   }
   .entrevistas-container2 {
-    width: 408px;
+    width: 100%;
   }
   .entrevistas-text {
     margin-bottom: 0;
   }
   .entrevistas-container3 {
-    width: 430px;
+    width: 100%;
   }
   .entrevistas-image2 {
     margin-top: 60px;
   }
   .entrevistas-text2 {
     width: 100%;
-  }
-  .entrevistas-root-class-name3 {
-    margin-top: 200px;
-  }
-  .entrevistas-root-class-name4 {
-    margin-top: 300px;
-  }
-  .entrevistas-root-class-name5 {
-    margin-top: 300px;
   }
 }

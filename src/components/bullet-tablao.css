@@ -57,6 +57,11 @@
   margin-bottom: 0px;
   background-color: #f2f2f2;
 }
+.bullet-tablao-root-class-name2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #f2f2f2;
+}
 .bullet-tablao-root-class-name3 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -88,9 +93,6 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.bullet-tablao-root-class-name11 {
-  background-color: #f2f2f2;
-}
 .bullet-tablao-root-class-name12 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -99,4 +101,17 @@
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #f2f2f2;
+}
+@media(max-width: 763px) {
+  .bullet-tablao-container {
+    display: none;
+  }
+}
+@media(max-width: 425px) {
+  .bullet-tablao-container {
+    display: none;
+  }
+  .bullet-tablao-root-class-name1 {
+    margin-bottom: 50px;
+  }
 }

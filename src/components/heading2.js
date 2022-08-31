@@ -6,19 +6,19 @@ import './heading2.css'
 
 const Heading2 = (props) => {
   return (
-    <div className={`heading 2-container ${props.rootClassName} `}>
-      <div className="heading 2-container1">
+    <div className={`heading2-container ${props.rootClassName} `}>
+      <div className="heading2-container1">
         <img
           alt={props.image_alt}
           src={props.image_src}
-          className="heading 2-image"
+          className="img_shii heading2-image"
         />
-        <div className="heading 2-container2">
-          <h2 className="heading 2-text heading2">
+        <div className="heading2-container2">
+          <h2 className="heading2-text heading2">
             <span className="">{props.text}</span>
-            <span className="heading 2-text2">{props.text1}</span>
+            <span className="heading2-text2">{props.text1}</span>
           </h2>
-          <span className="heading 2-text3">{props.text2}</span>
+          <span className="heading2-text3">{props.text2}</span>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@ const Heading2 = (props) => {
 Heading2.defaultProps = {
   text1: 'SkyAlert',
   rootClassName: '',
-  image_src: '/playground_assets/skyalert-%5B2%5D_04-300h.png',
+  image_src: '/playground_assets/skyalert-%5B2%5D_04-400h.png',
   text: 'Empresas que también confían en',
   text2: 'Generamos confianza por la calidad de nuestros servicios.',
   image_alt: 'image',

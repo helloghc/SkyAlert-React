@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -8,10 +9,12 @@ import './navbar.css'
 const Navbar = (props) => {
   return (
     <div className={`navbar-navbar-container ${props.rootClassName} `}>
-      <header data-role="Header" className="navigation-container">
+      <header
+        data-role="Header"
+        className="navigation-container navbar-max-width"
+      >
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          src="/playground_assets/skyalert_logo_blanco-200h.png"
           className="navbar-image"
         />
         <div className="navbar-nav">
@@ -20,7 +23,10 @@ const Navbar = (props) => {
             className=""
           ></NavigationLinks>
         </div>
-        <div data-type="BurgerMenu" className="navigation-burger-menu">
+        <div
+          data-type="BurgerMenu"
+          className="navigation-burger-menu navbar-burger-menu"
+        >
           <svg viewBox="0 0 1024 1024" className="navbar-icon">
             <path
               d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -28,7 +34,10 @@ const Navbar = (props) => {
             ></path>
           </svg>
         </div>
-        <div data-type="MobileMenu" className="navigation-mobile-menu">
+        <div
+          data-type="MobileMenu"
+          className="navigation-mobile-menu navbar-mobile-menu"
+        >
           <div className="navbar-nav1">
             <div className="navbar-container">
               <img
@@ -45,16 +54,41 @@ const Navbar = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks
-              rootClassName="navigation-links-root-class-name11"
-              className=""
-            ></NavigationLinks>
+            <nav className="navbar-nav2">
+              <Link to="/" className="navbar-text navbar-link">
+                {props.text1}
+              </Link>
+              <Link
+                to="/suite-de-soluciones"
+                className="navbar-navlink navbar-link"
+              >
+                {props.text11}
+              </Link>
+              <Link to="/app" className="navbar-navlink1 navbar-link">
+                {props.text2}
+              </Link>
+              <Link to="/red-skyalert" className="navbar-navlink2 navbar-link">
+                {props.text3}
+              </Link>
+              <Link
+                to="/por-que-skyalert"
+                className="navbar-navlink3 navbar-link"
+              >
+                {props.text4}
+              </Link>
+              <Link to="/prensa" className="navbar-navlink4 navbar-link">
+                {props.text41}
+              </Link>
+              <Link to="/blog" className="navbar-navlink5 navbar-link">
+                {props.text411}
+              </Link>
+            </nav>
             <button className="navbar-primary-btn button-primary button">
               {props.PrimaryBtn1}
             </button>
           </div>
           <div className="navbar-social-media">
-            <span className="navbar-text">{props.text}</span>
+            <span className="navbar-text1">{props.text}</span>
             <div className="navbar-container1">
               <svg viewBox="0 0 1024 1024" className="navbar-icon04">
                 <path
@@ -102,21 +136,37 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src: '/playground_assets/logo1-200h.png',
-  image_src1: '/playground_assets/logo-1500h.png',
-  image_alt: 'logo',
+  image_src: 'cc48d0e5-a601-47f6-ac83-ca5733ad27ae',
+  image_src1: '/playground_assets/logo1-1500h.png',
+  text2: 'App',
+  text4: '¿Por qué SkyAlert?',
+  text11: 'Suite de soluciones',
+  text411: 'SkyAlert News',
   image_alt1: 'image',
+  text3: 'REDSkyAlert',
+  text41: 'Prensa',
+  image_alt: 'image',
+  image_src2: '3a912356-281e-4abf-b9a2-7ee14ec73835',
   text: 'Follow us',
+  text1: 'Home',
   rootClassName: '',
-  PrimaryBtn1: 'Get started',
+  PrimaryBtn1: 'Acceso a clientes',
 }
 
 Navbar.propTypes = {
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
-  image_alt: PropTypes.string,
+  text2: PropTypes.string,
+  text4: PropTypes.string,
+  text11: PropTypes.string,
+  text411: PropTypes.string,
   image_alt1: PropTypes.string,
+  text3: PropTypes.string,
+  text41: PropTypes.string,
+  image_alt: PropTypes.string,
+  image_src2: PropTypes.string,
   text: PropTypes.string,
+  text1: PropTypes.string,
   rootClassName: PropTypes.string,
   PrimaryBtn1: PropTypes.string,
 }

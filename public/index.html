@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
   <head>
     <title>SkyAlert</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,10 +42,72 @@
       ::placeholder{
       color: #63667066;
       }
+
+      .float{
+      	position:fixed;
+      	width:auto;
+      	height:auto;
+      	bottom:40px;
+      	right:10px;
+      	background-color:#25d366;
+      	color:#FFF;
+      	border-radius:50px;
+      	text-align:center;
+        font-size:14px;
+      	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+        padding:10px 20px;
+        text-decoration:none;
+      }
+      .float_cotiza{
+      	position:fixed;
+      	width:auto;
+      	height:auto;
+      	bottom:90px;
+      	right:10px;
+      	background-color:#fa7931;
+      	color:#FFF;
+      	border-radius:50px;
+      	text-align:center;
+        font-size:14px;
+      	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+        padding:10px 20px;
+        text-decoration:none;
+      }
+
+      .my-float{
+        width:20px;
+        display:inline-block;
+      }
+      .fa-solid{}
+      .fa-house-laptop{}
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
     <div id="app"></div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=UA-90455538-1"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'UA-90455538-1');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-TV7VVKZ');
+    </script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
     <script>
       window.onload = () => {
@@ -121,5 +183,23 @@
         runAllScripts();
       };
     </script>
+
+    <a
+      href="https://api.whatsapp.com/send/?phone=525579020029&text=Quisiera+saber+m%C3%A1s+sobre+SkyAlert+&type=phone_number&app_absent=0"
+      class="float_cotiza"
+      target="_blank"
+    >
+      <i class="fa-solid fa-house-laptop my-float"></i>
+      Cotiza SkyAlert
+    </a>
+
+    <a
+      href="https://api.whatsapp.com/send/?phone=525579020029&text=Quisiera+saber+m%C3%A1s+sobre+SkyAlert+&type=phone_number&app_absent=0"
+      class="float"
+      target="_blank"
+    >
+      <i class="fa fa-laptop my-float"></i>
+      Soporte técnico
+    </a>
   </body>
 </html>

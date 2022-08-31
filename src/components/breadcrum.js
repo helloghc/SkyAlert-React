@@ -7,7 +7,7 @@ import './breadcrum.css'
 const Breadcrum = (props) => {
   return (
     <div className={`breadcrum-container ${props.rootClassName} `}>
-      <span className="">{props.text}</span>
+      <span>{props.text}</span>
       <span className="breadcrum-text1">{props.text1}</span>
       <span className="breadcrum-text2">{props.text2}</span>
     </div>

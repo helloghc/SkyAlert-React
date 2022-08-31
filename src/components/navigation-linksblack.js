@@ -49,7 +49,7 @@ NavigationLinksblack.defaultProps = {
   text1: 'Suite de soluciones',
   text3: 'REDSkyAlert',
   text: 'Home',
-  text411: 'Blog',
+  text411: 'SkyAlert News',
   text41: 'Prensa',
 }
 

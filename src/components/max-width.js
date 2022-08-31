@@ -6,9 +6,7 @@ import './max-width.css'
 
 const MaxWidth = (props) => {
   return (
-    <div
-      className={`max-width-max-width max-content-container ${props.rootClassName} `}
-    >
+    <div className="max-content-container homeskyapp max-width-max-width">
       <div className="max-width-heading-container"></div>
       <div className="max-width-cards-container">
         <div className="max-width-container">
@@ -69,6 +67,7 @@ const MaxWidth = (props) => {
               <span className="max-width-text09 content-Light">
                 {props.text112}
               </span>
+              <span className="">{props.text}</span>
             </div>
             <div className="max-width-card5">
               <img
@@ -76,8 +75,8 @@ const MaxWidth = (props) => {
                 src={props.image_src111}
                 className="max-width-image5"
               />
-              <h4 className="max-width-text10 heading4">{props.heading111}</h4>
-              <span className="max-width-text11 content-Light">
+              <h4 className="max-width-text11 heading4">{props.heading111}</h4>
+              <span className="max-width-text12 content-Light">
                 {props.text111}
               </span>
             </div>
@@ -117,6 +116,7 @@ MaxWidth.defaultProps = {
   text13:
     'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
   image_alt111: 'image',
+  text: '*Sólo usuarios Gold',
   heading11: 'Search for ideas',
   rootClassName13: '',
   text1:
@@ -153,6 +153,7 @@ MaxWidth.propTypes = {
   heading12: PropTypes.string,
   text13: PropTypes.string,
   image_alt111: PropTypes.string,
+  text: PropTypes.string,
   heading11: PropTypes.string,
   rootClassName13: PropTypes.string,
   text1: PropTypes.string,

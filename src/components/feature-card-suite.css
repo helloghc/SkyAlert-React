@@ -29,7 +29,7 @@
   max-height: 0px;
   min-height: 150px;
 }
-@media(max-width: 991px) {
+@media(max-width: 896px) {
   .feature-card-suite-root-class-name6 {
     width: auto;
     min-height: 150px;
@@ -39,12 +39,12 @@
     min-height: 150px;
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 763px) {
   .feature-card-suite-card {
     width: 50%;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .feature-card-suite-card {
     width: 100%;
   }

@@ -6,32 +6,32 @@ import './bloquesblog.css'
 
 const Bloquesblog = (props) => {
   return (
-    <div className={`3bloquesblog-container ${props.rootClassName} `}>
-      <div className="3bloquesblog-container1">
-        <div className="3bloquesblog-container2">
+    <div className={`bloquesblog-container ${props.rootClassName} `}>
+      <div className="bloquesblog-container1">
+        <div className="bloquesblog-container2">
           <h1>{props.heading}</h1>
           <img
             alt={props.image_alt}
             src={props.image_src}
-            className="3bloquesblog-image"
+            className="bloquesblog-image"
           />
           <span>{props.text}</span>
         </div>
-        <div className="3bloquesblog-container3">
+        <div className="bloquesblog-container3">
           <h1>{props.heading1}</h1>
           <img
             alt={props.image_alt1}
             src={props.image_src1}
-            className="3bloquesblog-image1"
+            className="bloquesblog-image1"
           />
           <span>{props.text1}</span>
         </div>
-        <div className="3bloquesblog-container4">
+        <div className="bloquesblog-container4">
           <h1>{props.heading11}</h1>
           <img
             alt={props.image_alt11}
             src={props.image_src11}
-            className="3bloquesblog-image2"
+            className="bloquesblog-image2"
           />
           <span>{props.text11}</span>
         </div>

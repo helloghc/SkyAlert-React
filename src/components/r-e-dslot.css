@@ -104,8 +104,7 @@
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-
-@media(max-width: 767px) {
+@media(max-width: 763px) {
   .r-e-dslot-card {
     width: 50%;
   }
@@ -113,12 +112,13 @@
     width: 50%;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .r-e-dslot-container {
+    height: 1065px;
     flex-direction: column;
   }
   .r-e-dslot-container1 {
-    width: 472px;
+    width: 382px;
     text-align: center;
     margin-bottom: -700px;
   }

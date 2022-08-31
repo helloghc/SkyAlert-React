@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.4.4",
-    "axios": "^0.24.0",
-    "prop-types": "15.7.2",
+    "@craco/craco": "^6.4.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.3.5"
+    "react-helmet": "^6.1.0",
+    "prop-types": "15.7.2"
   },
   "scripts": {
     "start": "craco start",
@@ -30,10 +28,7 @@
       "last 1 safari version"
     ]
   },
-  "peerDependencies": {
-    "react-scripts": "4.*"
-  },
   "devDependencies": {
-    "react-scripts": "4.*"
+    "react-scripts": "^5.0.1"
   }
 }

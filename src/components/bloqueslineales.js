@@ -6,28 +6,28 @@ import './bloqueslineales.css'
 
 const Bloqueslineales = (props) => {
   return (
-    <div className={`4bloqueslineales-container ${props.rootClassName} `}>
-      <div className="4bloqueslineales-container1">
-        <div className="4bloqueslineales-card">
-          <h1 className="4bloqueslineales-text">{props.heading}</h1>
-          <h1 className="4bloqueslineales-text01">{props.heading2}</h1>
-          <span className="4bloqueslineales-text02">{props.text3}</span>
+    <div className={`bloqueslineales-container ${props.rootClassName} `}>
+      <div className="bloqueslineales-container1">
+        <div className="bloqueslineales-card">
+          <h1 className="bloqueslineales-text">{props.heading}</h1>
+          <h1 className="bloqueslineales-text01">{props.heading2}</h1>
+          <span className="bloqueslineales-text02">{props.text3}</span>
         </div>
-        <div className="4bloqueslineales-card1">
-          <h1 className="4bloqueslineales-text03">{props.heading4}</h1>
-          <h1 className="4bloqueslineales-text04">{props.heading23}</h1>
-          <span className="4bloqueslineales-text05">{props.text33}</span>
+        <div className="bloqueslineales-card1">
+          <h1 className="bloqueslineales-text03">{props.heading4}</h1>
+          <h1 className="bloqueslineales-text04">{props.heading23}</h1>
+          <span className="bloqueslineales-text05">{props.text33}</span>
         </div>
-        <div className="4bloqueslineales-card2">
-          <div className="4bloqueslineales-container2">
-            <span className="4bloqueslineales-text06">{props.text}</span>
-            <h1 className="4bloqueslineales-text07">{props.heading3}</h1>
+        <div className="bloqueslineales-card2">
+          <div className="bloqueslineales-container2">
+            <span className="bloqueslineales-text06">{props.text}</span>
+            <h1 className="bloqueslineales-text07">{props.heading3}</h1>
           </div>
-          <span className="4bloqueslineales-text08">{props.text32}</span>
+          <span className="bloqueslineales-text08">{props.text32}</span>
         </div>
-        <div className="4bloqueslineales-card3">
-          <h1 className="4bloqueslineales-text09">{props.heading1}</h1>
-          <span className="4bloqueslineales-text10">{props.text31}</span>
+        <div className="bloqueslineales-card3">
+          <h1 className="bloqueslineales-text09">{props.heading1}</h1>
+          <span className="bloqueslineales-text10">{props.text31}</span>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.sky-alert\ otros-container {
+.sky-alert-otros-container {
   width: 100%;
   height: 124px;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.sky-alert\ otros-container1 {
+.sky-alert-otros-container1 {
   width: 716px;
   height: 184px;
   display: flex;
@@ -17,7 +17,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.sky-alert\ otros-image {
+.sky-alert-otros-image {
   width: 40px;
   height: auto;
   opacity: 0;
@@ -25,15 +25,14 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.sky-alert\ otros-container2 {
-  flex: 0 0 auto;
-  width: auto;
+.sky-alert-otros-container2 {
+  width: 759px;
   height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.sky-alert\ otros-text {
+.sky-alert-otros-text {
   width: 600px;
   opacity: 0;
   align-self: flex-start;
@@ -44,19 +43,16 @@
   padding-top: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-fourunits);
 }
-.sky-alert\ otros-image1 {
-  width: 200px;
+.sky-alert-otros-image1 {
+  width: 100px;
   height: auto;
   align-self: center;
   object-fit: cover;
-  margin-right: var(--dl-space-space-fourunits);
+  margin-right: var(--dl-space-space-fiveunits);
 }
-.sky-alert\ otros-text1 {
+.sky-alert-otros-text1 {
   color: #6b6b6b;
   font-size: 25px;
   align-items: center;
-  margin-left: -20px;
-}
-.sky-alert\ otros-root-class-name {
-  margin-bottom: 0px;
+  margin-left: 20px;
 }

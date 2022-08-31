@@ -6,49 +6,49 @@ import './bloques.css'
 
 const Bloques = (props) => {
   return (
-    <div className={`3bloques-container ${props.rootClassName} `}>
-      <div className="3bloques-container1">
+    <div className={`bloques-container ${props.rootClassName} `}>
+      <div className="bloques-container1">
         <h1 className="">{props.heading}</h1>
-        <h1 className="3bloques-text01">{props.heading2}</h1>
+        <h1 className="bloques-text01">{props.heading2}</h1>
       </div>
-      <div className="3bloques-container2">
-        <div className="3bloques-card">
+      <div className="bloques-container2">
+        <div className="bloques-card">
           <img
             alt={props.image_alt}
             src={props.image_src}
-            className="3bloques-image"
+            className="bloques-image"
           />
-          <h4 className="3bloques-text02 heading4">{props.heading3}</h4>
-          <span className="3bloques-text03 content-Light">{props.text}</span>
+          <h4 className="bloques-text02 heading4">{props.heading3}</h4>
+          <span className="bloques-text03 content-Light">{props.text}</span>
         </div>
-        <div className="3bloques-card1">
+        <div className="bloques-card1">
           <img
             alt={props.image_alt1}
             src={props.image_src1}
-            className="3bloques-image1"
+            className="bloques-image1"
           />
-          <h4 className="3bloques-text04 heading4">{props.heading31}</h4>
-          <span className="3bloques-text05 content-Light">{props.text1}</span>
+          <h4 className="bloques-text04 heading4">{props.heading31}</h4>
+          <span className="bloques-text05 content-Light">{props.text1}</span>
         </div>
       </div>
-      <div className="3bloques-container3">
-        <div className="3bloques-card2">
+      <div className="bloques-container3">
+        <div className="bloques-card2">
           <img
             alt={props.image_alt2}
             src={props.image_src2}
-            className="3bloques-image2"
+            className="bloques-image2"
           />
-          <h4 className="3bloques-text06 heading4">{props.heading32}</h4>
-          <span className="3bloques-text07 content-Light">{props.text2}</span>
+          <h4 className="bloques-text06 heading4">{props.heading32}</h4>
+          <span className="bloques-text07 content-Light">{props.text2}</span>
         </div>
-        <div className="3bloques-card3">
+        <div className="bloques-card3">
           <img
             alt={props.image_alt11}
             src={props.image_src11}
-            className="3bloques-image3"
+            className="bloques-image3"
           />
-          <h4 className="3bloques-text08 heading4">{props.heading311}</h4>
-          <span className="3bloques-text09 content-Light">{props.text11}</span>
+          <h4 className="bloques-text08 heading4">{props.heading311}</h4>
+          <span className="bloques-text09 content-Light">{props.text11}</span>
         </div>
       </div>
     </div>

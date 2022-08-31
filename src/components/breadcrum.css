@@ -19,14 +19,3 @@
   padding-top: 0 10px 0 10px;
   padding-bottom: 0 10px 0 10px;
 }
-
-
-@media(max-width: 479px) {
-  .breadcrum-root-class-name {
-    margin-top: 0px;
-    margin-bottom: 50px;
-  }
-  .breadcrum-root-class-name1 {
-    margin-bottom: 500px;
-  }
-}

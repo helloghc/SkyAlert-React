@@ -28,7 +28,7 @@ const BulletTablao = (props) => {
 BulletTablao.defaultProps = {
   image_src: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   image_alt1: 'image',
-  text: '-',
+  text: 'X',
   image_src1: '/playground_assets/circulo-200h.png',
   rootClassName: '',
   image_alt: 'image',

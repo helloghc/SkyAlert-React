@@ -20,33 +20,23 @@
 .sky-s-o-s-text3 {
   font-size: 20px;
 }
-.sky-s-o-s-root-class-name {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
 .sky-s-o-s-root-class-name2 {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-@media(max-width: 991px) {
+@media(max-width: 896px) {
   .sky-s-o-s-text {
     font-size: 40px;
     line-height: 40px;
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 763px) {
   .sky-s-o-s-text {
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .sky-s-o-s-text {
     width: 328px;
-  }
-  .sky-s-o-s-root-class-name {
-    margin-top: 300px;
-    margin-left: var(--dl-space-space-fiveunits);
-    margin-right: var(--dl-space-space-fiveunits);
-    margin-bottom: var(--dl-space-space-unit);
   }
 }

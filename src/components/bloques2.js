@@ -3,16 +3,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import FeatureCard from './feature-card'
-import './bloques.css'
+import './bloques2.css'
 
 const Bloques2 = (props) => {
   return (
-    <div className={`4bloques-container ${props.rootClassName} `}>
-      <div className="4bloques-container1">
+    <div className={`bloques2-container ${props.rootClassName} `}>
+      <div className="bloques2-container1">
         <h1 className="">{props.heading}</h1>
-        <h1 className="4bloques-text1">{props.heading2}</h1>
+        <h1 className="bloques2-text1">{props.heading2}</h1>
       </div>
-      <div className="4bloques-container2">
+      <div className="bloques2-container2">
         <FeatureCard
           text="SkyAlert identifica el peligro con potencial de hacer daño a personas y/o infraestructura.\n"
           heading=" "
@@ -28,7 +28,7 @@ const Bloques2 = (props) => {
           className=""
         ></FeatureCard>
       </div>
-      <div className="4bloques-container3">
+      <div className="bloques2-container3">
         <FeatureCard
           text="Se procesa y valida la información para determinar la zona a ser alertada por el peligro en observación, dividida en radios de alertamiento."
           heading=" "

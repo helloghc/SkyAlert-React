@@ -125,8 +125,7 @@
   margin-bottom: 100px;
 }
 
-
-@media(max-width: 991px) {
+@media(max-width: 896px) {
   .paquetes-container {
     align-items: center;
     margin-left: auto;
@@ -146,43 +145,54 @@
     margin: 30px 0;
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 763px) {
+  .paquetes-card {
+    width: 268px;
+  }
   .paquetes-card1 {
     width: 80%;
     height: 100%;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .paquetes-container {
-    width: 479px;
+    width: 100%;
+    height: 2001px;
+    margin-top: 50px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
   }
   .paquetes-container1 {
-    width: 80%;
+    width: 100%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
   }
   .paquetes-card {
-    width: 371px;
+    width: 90%;
+    padding: 0;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
   }
   .paquetes-card1 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 604px;
+    padding: 0;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     justify-content: center;
   }
   .paquetes-card2 {
-    width: 364px;
-  }
-  .paquetes-root-class-name {
-    margin-top: 650px;
-    margin-bottom: 650px;
+    width: 90%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

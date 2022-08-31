@@ -43,13 +43,14 @@ const NavigationLinks = (props) => {
 }
 
 NavigationLinks.defaultProps = {
-  text411: 'Blog',
+  text411: 'SkyAlert News',
   text2: 'App',
   text3: 'REDSkyAlert',
   rootClassName: '',
   text4: '¿Por qué SkyAlert?',
   text41: 'Prensa',
   text: 'Home',
+  hover: () => {},
   text1: 'Suite de soluciones',
 }
 
@@ -61,6 +62,7 @@ NavigationLinks.propTypes = {
   text4: PropTypes.string,
   text41: PropTypes.string,
   text: PropTypes.string,
+  hover: PropTypes.func,
   text1: PropTypes.string,
 }
 

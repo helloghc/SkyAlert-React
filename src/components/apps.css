@@ -13,26 +13,29 @@
 .apps-image {
   width: 250;
   padding: 20px;
+  max-width: 250px;
   object-fit: cover;
 }
 .apps-image1 {
   width: 250;
   padding: 20px;
+  max-width: 250px;
   object-fit: cover;
 }
 .apps-image2 {
   width: 250;
   padding: 20px;
+  max-width: 250px;
   object-fit: cover;
 }
 
-
-@media(max-width: 479px) {
+@media(max-width: 425px) {
   .apps-footer {
     width: 100%;
   }
   .apps-container {
     width: 100%;
+    flex-direction: column;
   }
   .apps-image {
     width: 100%;
@@ -43,8 +46,5 @@
   }
   .apps-image2 {
     display: inline-block;
-  }
-  .apps-root-class-name {
-    margin-top: 60px;
   }
 }
