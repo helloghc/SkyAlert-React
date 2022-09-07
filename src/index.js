@@ -15,13 +15,13 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route exact component={AppSkyAlert} path="/app" />
-        <Route exact component={Suite} path="/suite-de-soluciones" />
-        <Route exact component={REDSkyAlert} path="/red-skyalert" />
-        <Route exact component={Home} path="/" />
-        <Route exact component={PorQuSky} path="/por-que-skyalert" />
-        <Route exact component={Blog} path="/blog" />
-        <Route exact component={Prensa} path="/prensa" />
+        <Route component={AppSkyAlert} exact path="/app" />
+        <Route component={Suite} exact path="/suite-de-soluciones" />
+        <Route component={REDSkyAlert} exact path="/red-skyalert" />
+        <Route component={Home} exact path="/" />
+        <Route component={PorQuSky} exact path="/por-que-skyalert" />
+        <Route component={Blog} exact path="/blog" />
+        <Route component={Prensa} exact path="/prensa" />
       </div>
     </Router>
   )
